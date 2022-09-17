@@ -1,0 +1,187 @@
+.header {
+    background-color: #460d7c;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.headerContainer {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 0px 100px 0px;
+    position: relative;
+}
+
+.headerText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.headerContainer.listMode {
+    padding: 20px 0px 60px 0px;
+}
+
+.headerList {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 40px;
+}
+
+.headerListItem {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 600;
+    border: 1px solid rgba(255, 255, 255, 0);
+    padding: 8px 15px;
+    border-radius: 0;
+}
+
+.headerListItem.active {
+    border: 1px solid #089011;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    color: #089011;
+}
+
+.headerListItem:hover {
+    border: 1px solid #089011;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    color: #089011;
+}
+
+.headerTitle {
+    padding: 40px 0px 20px 0px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.headerDesc {
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+.headerBtn {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+}
+
+.headerBtn:hover {
+    color: #089011;
+}
+
+.headerSearch {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid #a5cd05;
+    border-radius: 5px;
+    padding: 10px 0;
+    height: 30px;
+    position: absolute;
+    bottom: -25px;
+    width: 100%;
+}
+
+.headerSearchItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.headerSearchInput {
+    color: limegreen;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.headerSearchInput::placeholder {
+    color: limegreen;
+    font-weight: 400;
+}
+
+.headerIcon {
+    color: limegreen;
+    font-size: 20px;
+}
+
+.headerSearchText {
+    color: limegreen;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.date {
+    position: absolute;
+    top: 50px;
+    z-index: 2;
+}
+
+.options {
+    position: absolute;
+    top: 50px;
+    color: limegreen;
+    box-shadow: 1px 5px 13px 1px rgba(0, 0, 0, 0.33);
+    -webkit-box-shadow: 1px 5px 13px 1px rgba(0, 0, 0, 0.33);
+    -moz-box-shadow: 1px 5px 13px 1px rgba(0, 0, 0, 0.33);
+    z-index: 2;
+    background-color: #fff;
+}
+
+.optionsItem {
+    width: 200px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.optionsCounter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.optionsCunterBtn {
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    border: 1px solid limegreen;
+    background-color: white;
+    color: limegreen;
+}
+
+.optionsCunterBtn:disabled {
+    cursor: not-allowed;
+}
+
+.search {
+    padding: 8px 20px;
+    border-radius: 5px;
+    border: 1px solid limegreen;
+    color: black;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.search:hover {
+    background-color: limegreen;
+    color: white;
+}

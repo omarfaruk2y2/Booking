@@ -1,0 +1,37 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footerContainer{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 100px 0px 50px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.footerList{
+    display: flex;
+    flex-direction: column;
+}
+.footerHeading{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.footerList span{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    cursor: pointer;
+}
+.footerList span:hover{
+    color: limegreen;
+}
+.footer .footerCopyright{
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}

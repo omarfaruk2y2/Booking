@@ -1,0 +1,54 @@
+.emailList{
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    padding: 100px 0;
+}
+.emailListWappar{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.emailListText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.emailTitle{
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+}
+.emailSubtitle{
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    padding: 10px 0px 40px 0px;
+}
+.emailListContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.emailListInput{
+    width: 300px;
+    height: 45px;
+    padding: 0px 20px;
+    margin-right: 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.emailListButton{
+    height: 45px;
+    padding: 0px 20px;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.emailListButton:hover{
+    background-color: limegreen;
+    color: #fff;
+}

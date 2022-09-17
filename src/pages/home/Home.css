@@ -1,0 +1,13 @@
+.homeContainer{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 120px;
+}
+.headingText{
+    font-size: 35px;
+    font-weight: 600;
+}

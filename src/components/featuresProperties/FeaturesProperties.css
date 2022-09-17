@@ -1,0 +1,46 @@
+.featuresProperties{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.featuresPropertiesItem{
+    display: flex;
+    flex-direction: column;
+}
+.featuresPropertisTitle{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 0px 10px 0px;
+}
+.featuresPropertisLocation{
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.featuresPropertisImage{
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
+}
+.featuresPropertisPrice{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.featuresPropertiesRating{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.rating{
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(95, 12, 238);
+    color: #fff;
+    font-size: 14px;
+    padding: 3px 10px;
+}
+.featuresPropertiesRating h3{
+    font-size: 16px;
+    font-weight: 500;
+}
